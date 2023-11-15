@@ -1,0 +1,26 @@
+.jobcontainer{
+    display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+.job_cardSection{
+    width: 69rem;
+    margin: 8rem;
+    padding: 1rem;
+    margin-top: 85px;
+}
+.Job_heading{
+    text-align: start;
+    font-size: 2rem;
+    margin-left: 10rem;
+    // margin-bottom: 2rem;
+    padding: 1rem;
+    font-weight: 700;
+}
+@media only screen and (max-width: 600px) {
+    .job_cardSection{
+        margin: 0;
+        margin-right: 10px;
+    }
+
+}

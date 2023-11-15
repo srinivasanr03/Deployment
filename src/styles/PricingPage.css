@@ -1,0 +1,40 @@
+.PricingPage-App{
+    width: 100vw;
+    background-color: white;
+    padding: 0 2rem;
+    margin: 0;
+    margin-bottom: 5rem;
+    box-sizing: border-box;
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+ 
+ }
+ 
+ /* .subcards-container{
+ 
+     
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+ }
+ 
+ @media (max-width:767px){
+    #id-subcards-container{
+       width: 80vw;
+       padding: 1.5rem 2rem;
+        
+    }
+ 
+ }
+ 
+ @media (min-width:768px){
+    #id-subcards-container{
+       width: 80%;  
+       padding: 2rem 3rem;
+    }
+ } */
+ 
+ 
+ 

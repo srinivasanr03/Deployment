@@ -1,0 +1,74 @@
+.whyus-many-features-wrapper{
+    width:90vw;
+    max-width: 1200px;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    margin: 0 auto;    
+}
+
+.whyus-many-features-container{
+    padding-top: 2rem;
+    border-radius: 0.5rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    box-shadow: 1px 1px 5px lightblue;
+}
+
+.whyus-many-features-heading{
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+.many-p{
+    color: #5DCEAA;
+}
+
+.whyus-many-features-heading>h2{
+    text-align: center;
+    font-size: 48px;
+    opacity: 90%;
+    letter-spacing: 2px;
+}
+
+.whyus-many-features-card-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: space-evenly;
+}
+
+.whyus-many-features-card{
+    width: 258px;
+
+    padding: 1.5rem 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+.whyus-many-features-card>h3{
+    font-size: x-large;
+    /* color: #524f4f; */
+
+    letter-spacing: 1px;
+    /* line-height: 30px; */
+}
+
+.whyus-many-features-card>p{
+    /* width: 248px; */
+    text-align: left;
+    font-size: 16px;
+    margin: 0 auto;
+    font-weight: 500;
+    color: #6e6a6a;
+}

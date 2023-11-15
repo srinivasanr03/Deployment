@@ -1,0 +1,139 @@
+.subcards-subcontainer{
+    width: 85vw;
+    border-radius: 1rem;
+    display: none;
+}
+
+@media (max-width:767px){
+    #id-subcards-subcontainer{
+        display: flex;
+        flex-direction:column;
+        padding: 1rem 1rem;
+        
+    }
+
+    #id-subcontainer-headings-left{
+        width: 100%;
+        
+    }
+
+    #id-subcontainer-headings-right{
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    .subcontainer-headings-left>.tags{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0.8rem;
+        margin-top: 1.25rem;
+    }
+
+}
+
+
+
+@media (min-width:768px){
+    #id-subcards-subcontainer{
+        display: flex;
+        flex-direction: row;
+        gap: 10rem;
+        padding: 1rem 2rem;
+
+    }
+
+    #id-subcontainer-headings-left{
+        width: 70%;
+    }
+
+    #id-subcontainer-headings-right{
+        width: 30%;
+        text-align: right;
+    }
+
+    .subcontainer-headings-left>.tags{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-top: 1.25rem;
+    }
+
+    
+}
+
+
+
+
+
+.subcontainer-headings-left{  
+    display: flex;
+    flex-direction: column;
+}
+
+
+.subcontainer-headings-left{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.subcontainer-headings-left>.title{
+    font-size:xx-large;
+    font-weight: 700;
+}
+
+.subcontainer-headings-left>.desc1{
+    font-weight: 500;
+    font-size: large;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+.subcontainer-headings-left>.desc2{
+    font-weight: 300;
+    
+}
+
+
+
+.tags-content-styling{
+    color: #3ba0ff;
+    background-color: blue;
+    background: transparent;
+    background-color: #e8f9ff;
+    padding: 0.4rem 0.6rem;
+}
+
+.subcontainer-headings-right{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.subcontainer-headings-right>.contact-us{
+    color: #0377e3;
+    font-weight: 500;
+    font-size: large;
+}
+
+.subcontainer-headings-right>div>button{
+    padding: 0.4rem 0.8rem;
+    font-weight: 600;
+    font-size: medium;
+    border-radius: 2rem;
+    color: white;
+    background: #243B9A;
+    cursor: pointer;
+}
+
+
+
+ .subcards-container{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }

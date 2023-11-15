@@ -1,0 +1,63 @@
+.make-placement-wrapper{
+    width: 92vw;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 2rem;
+
+    
+}
+
+.make-placement-content-container{
+    width: 100%;
+    padding: 2rem 2rem;
+    border-radius: 0.5rem;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 3rem;
+    box-shadow: 1px 1px 5px lightblue;
+
+}
+
+.make-placement-content{
+    /* padding: 7rem 0rem;
+    padding-top: 9rem; */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.make-placement-content>h2{
+    font-size: xx-large;
+}
+
+.make-placement-content>p{
+    font-size: medium;
+}
+
+.make-placement-content-image-container>img{
+    border-radius: 0.5rem;
+}
+
+.colleges-contact-us-btn{
+    margin-top: 2rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colleges-contact-us-btn>button{
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 20px;
+    font-weight:750;
+    color: white;
+    background-color: #3590fc;
+    border: 1px solid #e1e1e1;
+    cursor: pointer;
+}

@@ -1,0 +1,89 @@
+.we-simplify-main-wrapper{
+    width: 100%;
+    /* background-color: #F6F6F6; */
+    background-color: #f9fafc;
+}
+
+.we-simplify-wrapper{
+    width:92vw;
+    max-width: 1200px;
+    padding-top: 3rem;
+
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+
+.we-simplify-heading{
+    color: #27376f;
+    text-align: center;
+    font-size: 48px;
+}
+.p-bus{
+    color: #27376f;
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+.we-simplify-card-wrapper{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.we-simplify-card-container{
+    /* background-color: #55b8ff;
+    background-color: #F0F7FD; */
+   color: black;
+    width: 200px;
+    border-radius: 0.5rem;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    /* box-shadow: 0 2px 2px 0 #3a415b, 0 2px 5px 0 #91a7ff; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 1rem;
+}
+.Brandimg{
+    width: 100%;
+}
+.Sourceimg{
+    width: 100%;
+}
+.Screenimg{
+    width: 100%;
+}
+.Accessimg{
+    width: 100%;
+}
+.Hireimg{
+    width: 100%;
+}
+.brand{
+    background-color:  #FFE08F;
+ 
+}
+.Source{
+    background-color: #70B4F1;
+}
+.Screen{
+    background-color: rgb(255,105,83);
+}
+.Access{
+    background-color: rgb(180,180,180) ;
+}
+.Hire{
+    background-color: rgb(224,190,229) ;
+} 
+
+.we-simplify-card-container>p{
+    color: #28b689;
+    font-size:20px;
+}

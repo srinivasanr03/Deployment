@@ -1,0 +1,209 @@
+/* Complete_profile.scss */
+
+.Profile_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  overflow: auto;
+}
+
+.profile-image-container {
+  text-align: center;
+  width: 120px; /* Set the width of the container */
+  height: 120px;
+}
+
+.profile-image-container img {
+  max-width: 120px;
+  max-height: 120px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 20%;
+  left: 2%;
+  width: 100%; /* Ensure the image takes up the full container */
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile_btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.update-button,
+.remove-button {
+  display: inline-block;
+  padding: 7px;
+  width: 7rem;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  font-size: 10px;
+  border-radius: 5px;
+  position: absolute;
+  top: 40%;
+  left: 2.5%;
+  transition: background-color 0.3s;
+  position: fixed;
+  margin-top: 13px;
+}
+
+.remove-button {
+  background-color: gray;
+}
+
+.cancel-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ccc;
+  color: #000;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.Profile {
+  background-color: #fff;
+  padding: 40px;
+  padding-top: 0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-left: 10rem;
+  margin-top: 90rem;
+  transition: box-shadow 0.3s;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+button[type="submit"] {
+  display: block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="button"] {
+  display: block;
+  background-color: #ccc;
+  color: #000;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Hover and focus styles */
+.update-button:hover,
+.remove-button:hover,
+.cancel-button:hover,
+button[type="submit"]:hover,
+button[type="button"]:hover,
+input:focus,
+textarea:focus {
+  background-color: #0056b3;
+  color: #fff;
+  border-color: #0056b3;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .Profile_container {
+    display: flex;
+    flex-direction: column;
+    // margin-top: 10rem;
+    overflow-x: hidden;
+    position: relative;
+  }
+
+  .profile-image-container {
+    text-align: center;
+    position: relative;
+    top: 0%;
+    right: 2%;
+    width: 120px; /* Set the width of the container */
+  height: 120px;
+  }
+  
+  .profile-image-container img {
+    position: absolute;
+    top: 0%;
+    background-color: #007bff;
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 15%;
+    left: 39%;
+    width: 100%; /* Ensure the image takes up the full container */
+    height: 100%; /* Ensure the image takes up the full container */
+    object-fit: cover;
+  }
+.Profile{
+  // left: 0;
+  margin-top: 160rem;
+  margin-left: 0;
+ z-index: 1;
+ 
+}
+
+
+.profile_btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.update-button,
+.remove-button {
+  text-align: center;
+display: flex;
+flex-direction: row;
+width:11rem;
+max-height: 25rem;
+top: 27%;
+left:39%;
+}
+
+
+
+
+}

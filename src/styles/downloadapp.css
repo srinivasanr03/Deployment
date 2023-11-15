@@ -1,0 +1,47 @@
+@import url(app.css);
+
+.download-app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  /* background-color:black; */
+}
+
+.laptop {
+  margin-top: -20px;
+  position: relative;
+  width: 1000px; /* Set the laptop's width as needed */
+  height: 420px; /* Set the laptop's height as needed */
+  /* background-color:white; */
+  border: 1px solid black;
+  border-radius: 10px;
+  /* box-shadow:black 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
+  overflow: hidden;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+/* You can style the laptop frame, keyboard, and screen as needed. */
+
+
+@media (max-width: 600px) {
+  .download-app-container {
+    /* margin-top: -15rem;
+    margin-bottom: 35px; */
+    /* margin-left: 1.25rem; */
+    height: fit-content;
+    padding: 4rem 0rem;
+  }
+ 
+  
+
+  .download-app-container img {
+    width: 100%;
+    margin-top: -40px;
+    height: 350px;
+  }
+}

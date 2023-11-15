@@ -1,0 +1,32 @@
+.refer-div{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: 2rem;
+}
+
+.refer-img1{
+    width: 80%;
+    height: 400px;
+    margin-top: 5%;
+    border-radius: 2rem;
+
+}
+
+@media (max-width: 792px ) {
+    .refer-div{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    }
+    .refer-img1{
+       height: 100px;
+    }
+    .refer-h6{
+        font-size: 2rem;
+    }
+    
+}

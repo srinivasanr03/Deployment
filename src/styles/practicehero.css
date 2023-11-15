@@ -1,0 +1,275 @@
+
+
+.practicehero-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-left: 130px;
+  }
+  
+  .im5{
+    border-radius: 20px;
+    height: 500px;
+  }
+  .btnm {
+  
+    position: relative;
+    top: 150px;
+    border: 0.2px solid black;
+    border-radius: 10px;
+  }
+  
+  
+  .btnm {
+    font-size: 20px;
+    width: 14em;
+    height: 2em;
+    text-align: center;
+    line-height: 2em;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    position: relative;
+    transition: 0.5s;
+  
+  
+  }
+  
+  .btnm::before,
+  .btnm::after {
+    content: '';
+    position: absolute;
+    width: 0.6em;
+    height: 0.6em;
+  
+    border-radius: 50%;
+    transition: 0.5s cubic-bezier(0.5, -0.5, 0.25, 1.5);
+    top: calc(50% - 0.6em / 2);
+  }
+  
+  .btnm::before {
+    left: 0;
+    z-index: -1;
+  }
+  
+  .btnm::after {
+    right: 0;
+    z-index: -2;
+  }
+  
+  .btnm:hover {
+    color: white;
+  }
+  
+  .btnm:hover::before,
+  .btnm:hover::after {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #4BB3FF;
+  }
+  
+  .btnm:hover::before {
+    top: 0;
+  }
+  
+  .btnm:hover::after {
+    right: -0.4em;
+    filter: brightness(0.8);
+  }
+  
+  
+  .practicehero {
+    padding: 151px 0;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .practicehero::before {
+   
+    position: absolute;
+    left: 0;
+    bottom: -72px;
+    width: 58px;
+    height: 364px;
+    z-index: -1;
+  }
+  
+  
+  .practicehero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+   
+  }
+  
+  .practicehero-left-top {
+    max-width: 690px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+  }
+  
+  .practicehero-left-top h1 {
+    color: #001950;
+    font-weight: 700;
+    font-size: 50px;
+  }
+  
+  .practicehero-left-top p {
+    color: #00277c;
+    font-weight: 300;
+    font-size: 20px;
+  }
+  
+  .practicehero-cards {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .practicehero-cards a {
+    padding: 16px 16px 12px;
+    width: 300px;
+    height: 200px;
+    transition: all 0.3s linear;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+  }
+  
+  .practicehero-cards a:hover {
+    transform: translateY(-15px);
+  }
+  
+  .practicehero-cards a:nth-child(1) {
+    background-image: url('../assets/images/interview/1.png');
+    background-size: cover;
+  }
+  
+  .practicehero-cards a:nth-child(2) {
+    background-image: url('../assets//images/interview/2.png');
+    background-size: cover;
+  }
+  
+  .practicehero-cards a:nth-child(3) {
+    background-image: url(https://cdn.unstop.com/uploads/images/practice/coding-sprint.png?d=326x314);
+    background-size: cover;
+  }
+  
+  .practicehero-cards a:nth-child(4) {
+    background-image: url(https://d8it4huxumps7.cloudfront.net/uploads/images/63de3f8950981_mock_interview.png?d=326x314);
+    background-size: cover;
+  }
+  
+  .practicehero-cards a span {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .practicehero-cards a:nth-child(1) {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #001950;
+  }
+  
+  .practicehero-cards a:nth-child(2) {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #001950;
+  }
+  
+  .practicehero-cards a:nth-child(3) {
+    color: #2a065e;
+  }
+  
+  .practicehero-cards a:nth-child(4) {
+    color: #094010;
+  }
+  
+  .im5{
+    width: 500px;
+  }
+  .practicehero-container{
+    display: flex;
+    flex-direction: row;
+    
+  }
+  
+  
+  
+  @media (max-width: 792px) {
+    .practicehero {
+     
+      padding-bottom: 100px;
+     
+    }
+    .practicehero-container {
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+      margin: 0%;
+      
+      
+    }
+  
+    .practicehero-left-top {
+      width: auto;
+      
+    }
+  
+    
+    .practicehero-cards a {
+      width: 280px;
+      height: 250px;
+      border-radius: 20px;
+      margin-bottom: 50px;
+    }
+    
+  
+    .practicehero-cards {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .practicehero-img{
+      margin-left: 0%;
+      width: auto;
+      height: auto;
+      order: -1;
+      display: flex;
+      justify-items: center;
+      align-items: center;
+      padding-left: 20px;
+     
+      
+    }
+    .im5{
+      border-radius: 10px;
+      /* height: 280px; */
+      width: 545px; 
+  
+    }
+   
+    .ht{
+      padding-left: 10px;
+      
+    }
+    .pt{
+      padding-left: 10px;
+    }
+
+    .practicehero-cards a:nth-child(2) {
+      background-image: url('../assets//images/interview/2.png');
+      background-size: inherit;
+      background-repeat: no-repeat;
+    }
+
+    .practicehero-cards a:nth-child(1) {
+      background-image: url('../assets/images/interview/1.png');
+      background-size: inherit;
+      background-repeat: no-repeat;
+
+    }
+  }
+  
+  

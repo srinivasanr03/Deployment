@@ -1,0 +1,128 @@
+.sec1{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    padding: 180px;
+
+}
+@media ( max-width: 792px) {
+    .sec1{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    height: auto;
+    }
+    #html{
+        position: absolute;
+        right: 40px;
+    }
+   .grid2{
+    height: auto;
+   }
+   .h11{
+padding-top: 50px;
+   }
+.h44{
+  position: absolute;
+  top: 30px;
+  right: -70px;
+}
+}
+.sp{
+    width: 60px;
+    font-size: 45px;
+    color: blue;
+}
+.grd1{
+
+    height: auto;
+    width: 100%;
+    padding: 20px;
+}
+.coupans{
+    display: flex;
+    gap: 300px;
+    padding: 10px;
+    border: 0.1px solid gray;
+    height: 50px;
+    border-radius: 10px;
+}
+h2{
+    width: 100%;
+    font-size: 1rem;
+    height: 50px;
+}
+.pay{
+    border: 0.1px solid gray;
+    padding: 20px;
+    border-radius: 10px;
+}
+.grd2{
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+#fname{
+    border-radius: 10px;
+    height: 50px;
+    
+}
+#html{
+margin-bottom: 30px;
+}
+
+#cp:hover {
+    background-color: rgb(98, 171, 243);
+    color: white;
+  }
+.btn-apply{
+    font-size: 1.2rem;
+    margin-top: 20px;
+    width: 100%;
+    background-color: rgb(34, 130, 226);
+    border: 2px solid rgb(0,115,230);
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+.btn-apply:hover {
+    background-color: rgb(0,115,230);
+    color: white;
+  }
+.buttonsss{
+    font-size: 1.2rem;
+    width: 40%;
+    background-color: rgb(34, 130, 226);
+    border: 2px solid rgb(0,115,230);
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+.buttonsss:hover {
+    background-color: rgb(0,115,230);
+    color: white;
+  }
+  .coupan{
+    display: flex;
+    gap: 10px;
+  }
+  .h11{
+    font-size: 1.5rem;
+    color: rgb(56,56,56);
+    margin: 0px;
+    margin-bottom: 20px;
+  }
+  h5{
+    width: 100%;
+    color: gray;
+  }
+  h4{
+    width: 40%;
+    color: gray;
+  }
+  h3{
+    width: 100%;
+    color: gray;
+  }

@@ -1,0 +1,45 @@
+.comming-soon-wrapper{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top right, #4BB3FF, #4CFCFF, #00E395);
+    padding-top: 5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.comming-soon-wrapper>img{
+    width: 60vw;
+}
+
+.text-part-comming-soon{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.text-part-comming-soon>p{
+    font-size: 28px;
+    color: #ededed;
+}
+
+.comming-soon-span{
+    color: #ebe9e9;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+@media (min-width:300px) and (max-width:820px){
+
+    .comming-soon-wrapper{
+        justify-content: start;
+        padding-top: 15rem;
+    }
+    .comming-soon-wrapper>img{
+        width: 90vw;
+        display: flex;
+        
+    }
+}

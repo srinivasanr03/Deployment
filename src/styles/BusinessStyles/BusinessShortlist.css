@@ -1,0 +1,124 @@
+.business-main-shortlist-wrapper{
+    width: 100%;
+}
+
+
+.business-shortlist-wrapper{
+    width:92vw;
+    max-width: 1200px;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+
+    margin: 0 auto;
+    
+}
+
+.business-shortlist-container{
+    padding: 4.5rem 2rem;
+    
+    border-radius: 0.5rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 4.75rem;
+}
+
+.business-shortlist-heading-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+}
+
+.business-shortlist-heading-container>h2{
+    color: #27376f;
+    font-size: 30px;
+    opacity: 90%;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.business-shortlist-card-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4rem;
+    justify-content: space-evenly;
+}
+
+.business-shortlist-card-container{
+    width: 800px;
+
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background-color: #f9fafc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    gap: 2rem;
+}
+
+.business-shortlist-card-container>h3{
+    color: #27376f;
+    font-size: 24px;
+}
+
+.business-shortlist-card-container>p{
+    text-align: left;
+    font-size: 16px;
+    margin: 0 auto;
+    font-weight: 500;
+    color: #27376f;
+}
+
+.business-shortlist-secondary-heading>p{
+    margin-top: 3rem;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.business-shortlist-btn-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.business-shortlist-btn{
+    /* padding: 0.5rem 1.5rem;
+    font-size: large;
+    background-color:lightblue;
+    border: 1px solid #b4b3b3;
+    border-radius: 0.25rem;
+
+    display: flex;
+    flex-direction: row;
+    gap: 1rem; */
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 20px;
+    font-weight:750;
+    color: white;
+    /* background-color: rgb(100, 203, 238); */
+    /* background-color: #4fadfe; */
+    background-color: #5DCEAA;
+    border: 1px solid #e1e1e1;
+    cursor: pointer;
+}
+
+.business-shortlist-btn:hover{
+
+    /* background-color:rgb(98, 193, 225); */
+    /* background-color: #2597fb; */
+    background-color: rgb(23, 101, 218);
+    border: 1px solid #b4b3b3;
+    transition: background-color 0.3s linear;
+    cursor: pointer;
+    
+}
